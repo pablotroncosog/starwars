@@ -30,7 +30,11 @@ export function SingleCharacter() {
                     <div className="card-body">
                         <h5 className="card-title"> {Character.properties?.name}</h5>
                         <p className="card-text">{Character.description}</p>
-                        <p className="card-text"><small className="text-muted"> {Character.properties?.birth_year}</small></p>
+                        <p className="card-text"> height: {Character.properties?.height}</p>
+                        <p className="card-text"> mass: {Character.properties?.mass}</p>
+                        <p className="card-text"> hair_color: {Character.properties?.hair_color}</p>
+                        <p className="card-text"> skin_color: {Character.properties?.skin_color}</p>
+                        <p className="card-text"> birth_year: <small className="text-muted"> {Character.properties?.birth_year}</small></p>
                     </div>
                 </div>
             </div>

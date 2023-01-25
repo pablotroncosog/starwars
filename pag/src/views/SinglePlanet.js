@@ -29,7 +29,10 @@ export function SinglePlanet() {
         <div className="col-md-8">
           <div className="card-body">
             <h5 className="card-title"> {Planet?.properties?.name}</h5>
-            <p className="card-text"> Su población es de {Planet?.properties?.population} habitantes</p>
+            <p className="card-text"> population: {Planet?.properties?.population} </p>
+            <p className="card-text"> climate: {Planet?.properties?.climate} </p>
+            <p className="card-text"> gravity: {Planet?.properties?.gravity} </p>
+            <p className="card-text"> terrain: {Planet?.properties?.terrain} </p>
           </div>
         </div>
       </div>
