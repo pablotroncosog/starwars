@@ -1,5 +1,6 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css"
+import Favorites from "./Favorites"
 
 
 
@@ -16,7 +17,8 @@ export function Navbar() {
             <div className="col-lg-2 bg-dark text-light aling-items-center mt-4">
                 <div className="dropdown">
                     <button className="btn btn-warning text-dark dropdown-toggle" type="button" data-bs-toggle="dropdown">
-                        Favoritos</button>
+                      <Favorites/>
+                      </button>
                     <ul className="dropdown-menu">
                        
                     </ul>
